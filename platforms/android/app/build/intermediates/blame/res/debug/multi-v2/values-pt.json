@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/chinna/MAAS/bsopencv/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
+            "map": [
+                {
+                    "source": "/Users/chinna/.gradle/caches/transforms-1/files-1.1/android-crop-1.0.0.aar/9075dc5d5961763ec66c72b1d9f822df/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "215,289,339,417,475",
+                        "endColumns": "73,49,77,57,58",
+                        "endOffsets": "284,334,412,470,529"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,174,224,302,360",
+                        "endColumns": "73,49,77,57,58",
+                        "endOffsets": "169,219,297,355,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -36,19 +36,32 @@ var app = {
                 cameraDirection: Camera.Direction.BACK,
                 saveToPhotoAlbum: true,
                 targetWidth: screen.width * ratio,
-                targetHeight: screen.height * ratio
+                targetHeight: screen.height * ratio,
+                correctOrientation: true
             };
 
             navigator.camera.getPicture(app.onSuccess, app.onError, opts);
     },
 
     onSuccess: function(imgURI){
-            let img = new Image();
-            img.crossOrigin = "Anonymous";
-            img.onload = function(){
-                app.ToDataURL(this);
+        var ratio = window.devicePixelRatio || 1;
+        let options = {
+            quality: 100
+//            widthRatio:1,
+//            heightRatio:1,
+//            targetWidth:600,
+//            targetHeight:600
             };
-            img.src = imgURI;
+        plugins.crop(function success (imgPath) {
+                     let img = new Image();
+                     img.crossOrigin = "Anonymous";
+                     img.onload = function(){
+                     app.ToDataURL(this);
+                     };
+                     img.src = imgPath;
+                     }, function fail () {
+                     console.log(msg);
+                     }, imgURI, options);
     },
     onError: function(msg){
             console.log(msg);

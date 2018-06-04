@@ -27,8 +27,6 @@ var app = {
             //This method is used while using ONLY ImageDetectionPlugin and CORDOVA-PLUGIN-CAMERA
             takePicture: function(){
                     var ratio = window.devicePixelRatio || 1;
-                   // var w = screen.width * ratio;
-                   // var h = screen.height * ratio;
                     let opts = {
                                 quality: 100,
                                 destinationType: Camera.DestinationType.FILE_URI,
@@ -37,7 +35,7 @@ var app = {
                                 encodingType: Camera.EncodingType.JPEG,
                                 cameraDirection: Camera.Direction.BACK,
                                 saveToPhotoAlbum: true,
-                               // allowEdit: true,
+                                //allowEdit: true,
                                 targetWidth: screen.width * ratio,
                                 targetHeight: screen.height * ratio
                             };
@@ -46,12 +44,17 @@ var app = {
             },
 
             onSuccess: function(imgURI){
-                   let img = new Image();
-                   img.crossOrigin = "Anonymous";
-                   img.onload = function(){
+            var ratio = window.devicePixelRatio || 1;
+            plugins.crop(function success (imgPath) {
+                    let img = new Image();
+                    img.crossOrigin = "Anonymous";
+                    img.onload = function(){
                         app.ToDataURL(this);
-                   };
-                   img.src = imgURI;
+                    };
+                    img.src = imgPath;
+            }, function fail () {
+                    //console.log(msg);
+            }, imgURI, { quality: 100, allowEdit: true, targetWidth: screen.width, targetHeight: screen.height});
             },
 
             onError: function(msg){
@@ -74,16 +77,10 @@ var app = {
                     cv.adaptiveThreshold(src, dst, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY, 41, 9);
                     cv.imshow('canvasOutput', dst);
 
-
-//                    cv.GaussianBlur(src,dst, new cv.Size(5,5),0,0);
-//                    cv.threshold(src,dst, 0,255,cv.THRESH_BINARY);
-//                    cv.imshow('canvasOutput', dst);
-
-
                     //Store the adaptiveThreshold image into local storage.
                     let canvasOutput = document.getElementById('canvasOutput');
                     let dataURL = canvasOutput.toDataURL("image/jpeg", 0.8);
-                    var params = {data: dataURL, prefix: 'adaptiveThreshold_41_9_', format: 'JPG', quality: 100, mediaScanner: true};
+                    var params = {data: dataURL, prefix: 'ATPic_', format: 'JPG', quality: 100, mediaScanner: true};
                         window.imageSaver.saveBase64Image(params,
                             function (filePath) {
                               console.log('File saved on ' + filePath);

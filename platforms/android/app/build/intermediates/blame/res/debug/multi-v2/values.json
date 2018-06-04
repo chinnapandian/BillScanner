@@ -4,6 +4,25 @@
             "outputFile": "/Users/chinna/MAAS/bsopencv/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
+                    "source": "/Users/chinna/.gradle/caches/transforms-1/files-1.1/android-crop-1.0.0.aar/9075dc5d5961763ec66c72b1d9f822df/res/values/values.xml",
+                    "from": {
+                        "startLines": "4,7,8,9,10,14,17,18,19,20,21,24,25,31,42,46,50",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "210,374,425,477,536,1035,1195,1267,1311,1383,1440,1603,1628,1931,2541,2739,2931",
+                        "endLines": "4,7,8,9,10,14,17,18,19,20,21,24,30,41,45,49,58",
+                        "endColumns": "52,50,51,58,58,47,71,43,71,56,51,24,12,12,12,12,12",
+                        "endOffsets": "258,420,472,531,590,1078,1262,1306,1378,1435,1487,1623,1926,2536,2734,2926,3463"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,8,11,12,13,14,15,17,18,24,35,39,43",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,153,204,256,315,703,870,942,986,1058,1115,1226,1251,1554,2164,2362,2554",
+                        "endLines": "2,3,4,5,6,8,11,12,13,14,15,17,23,34,38,42,51",
+                        "endColumns": "52,50,51,58,58,47,71,43,71,56,51,24,12,12,12,12,12",
+                        "endOffsets": "148,199,251,310,369,746,937,981,1053,1110,1162,1246,1549,2159,2357,2549,3086"
+                    }
+                },
+                {
                     "source": "/Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "4,2,3",
@@ -13,11 +32,11 @@
                         "endOffsets": "228,105,164"
                     },
                     "to": {
-                        "startLines": "2,3,4",
+                        "startLines": "9,10,16",
                         "startColumns": "4,4,4",
-                        "startOffsets": "55,119,174",
+                        "startOffsets": "751,815,1167",
                         "endColumns": "63,54,58",
-                        "endOffsets": "114,169,228"
+                        "endOffsets": "810,865,1221"
                     }
                 }
             ]

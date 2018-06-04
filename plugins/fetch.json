@@ -22,5 +22,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-crop-mod": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-crop-mod"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

@@ -39,6 +39,14 @@ module.exports = [
     "clobbers": [
       "cordova.saveImageGallery"
     ]
+  },
+  {
+    "id": "cordova-plugin-crop-mod.CropPlugin",
+    "file": "plugins/cordova-plugin-crop-mod/www/crop.js",
+    "pluginId": "cordova-plugin-crop-mod",
+    "clobbers": [
+      "plugins.crop"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -46,7 +54,8 @@ module.exports.metadata =
 {
   "cordova-plugin-whitelist": "1.3.3",
   "cordova-plugin-camera": "4.0.3",
-  "cordova-save-image-gallery": "0.0.26"
+  "cordova-save-image-gallery": "0.0.26",
+  "cordova-plugin-crop-mod": "1.0.0"
 };
 // BOTTOM OF METADATA
 });

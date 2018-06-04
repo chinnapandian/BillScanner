@@ -13,6 +13,7 @@
         "cordova-android": "^7.0.0",
         "cordova-ios": "^4.5.4",
         "cordova-plugin-camera": "^4.0.3",
+        "cordova-plugin-crop-mod": "^1.0.3",
         "cordova-plugin-whitelist": "^1.3.3",
         "cordova-save-image-gallery": "0.0.26"
     },
@@ -20,7 +21,8 @@
         "plugins": {
             "cordova-plugin-whitelist": {},
             "cordova-plugin-camera": {},
-            "cordova-save-image-gallery": {}
+            "cordova-save-image-gallery": {},
+            "cordova-plugin-crop-mod": {}
         },
         "platforms": [
             "ios",

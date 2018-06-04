@@ -1,0 +1,54 @@
+{
+  "_from": "cordova-plugin-crop-mod",
+  "_id": "cordova-plugin-crop-mod@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-EB9dMbpNziihQTXo52GIc7NhoEk=",
+  "_location": "/cordova-plugin-crop-mod",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-crop-mod",
+    "name": "cordova-plugin-crop-mod",
+    "escapedName": "cordova-plugin-crop-mod",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-crop-mod/-/cordova-plugin-crop-mod-1.0.3.tgz",
+  "_shasum": "101f5d31ba4dce28a14135e8e7618873b361a049",
+  "_spec": "cordova-plugin-crop-mod",
+  "_where": "/Users/chinna/MAAS/bsopencv",
+  "author": {
+    "name": "webmotoric"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-crop",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "This is just cordova-plugin-crop v0.4.0 with few changes which allow control crop mode via options.",
+  "keywords": [
+    "phonegap",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "image manipulation",
+    "image crop",
+    "image",
+    "crop",
+    "plugin"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-crop-mod",
+  "version": "1.0.3"
+}

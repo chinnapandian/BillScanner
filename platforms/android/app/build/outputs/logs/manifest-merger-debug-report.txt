@@ -11,15 +11,16 @@ INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/Android
 	android:name
 		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:12:127-180
 manifest
-ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
 MERGED from [com.android.support:support-v4:24.1.1] /Users/chinna/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/2705e0795f7fdf7feef3268b297502f8/AndroidManifest.xml:17:1-27:12
+MERGED from [com.soundcloud.android:android-crop:1.0.0] /Users/chinna/.gradle/caches/transforms-1/files-1.1/android-crop-1.0.0.aar/9075dc5d5961763ec66c72b1d9f822df/AndroidManifest.xml:2:1-10:12
 MERGED from [:CordovaLib] /Users/chinna/MAAS/bsopencv/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:2:102-132
 		INJECTED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml
@@ -55,7 +56,7 @@ ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidMan
 	android:name
 		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:5:5-15:19
+ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:5:5-16:19
 MERGED from [com.android.support:support-v4:24.1.1] /Users/chinna/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/2705e0795f7fdf7feef3268b297502f8/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.1.1] /Users/chinna/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/2705e0795f7fdf7feef3268b297502f8/AndroidManifest.xml:25:5-20
 	android:supportsRtl
@@ -92,50 +93,52 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
 	android:name
 		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+activity#com.soundcloud.android.crop.CropImageActivity
+ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:15:9-82
+	android:name
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:15:19-79
 uses-sdk
-ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:16:5-74
+ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:17:5-74
 MERGED from [com.android.support:support-v4:24.1.1] /Users/chinna/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/2705e0795f7fdf7feef3268b297502f8/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:24.1.1] /Users/chinna/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/2705e0795f7fdf7feef3268b297502f8/AndroidManifest.xml:21:5-23:54
+MERGED from [com.soundcloud.android:android-crop:1.0.0] /Users/chinna/.gradle/caches/transforms-1/files-1.1/android-crop-1.0.0.aar/9075dc5d5961763ec66c72b1d9f822df/AndroidManifest.xml:6:5-8:41
+MERGED from [com.soundcloud.android:android-crop:1.0.0] /Users/chinna/.gradle/caches/transforms-1/files-1.1/android-crop-1.0.0.aar/9075dc5d5961763ec66c72b1d9f822df/AndroidManifest.xml:6:5-8:41
 MERGED from [:CordovaLib] /Users/chinna/MAAS/bsopencv/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] /Users/chinna/MAAS/bsopencv/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:24.1.1] /Users/chinna/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/2705e0795f7fdf7feef3268b297502f8/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:16:42-71
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:17:42-71
 	android:minSdkVersion
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:17:15-41
 uses-permission#android.permission.CAMERA
-ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:17:5-65
+ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:18:5-65
 	android:name
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:17:22-62
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:18:22-62
 uses-feature#android.hardware.camera
-ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:18:5-85
+ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:19:5-85
 	android:required
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:18:58-82
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:19:58-82
 	android:name
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:18:19-57
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:19:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:19:5-95
+ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:20:5-95
 	android:required
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:19:68-92
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:20:68-92
 	android:name
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:19:19-67
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:20:19-67
 uses-feature#android.hardware.camera.front
-ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:20:5-91
+ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:21:5-91
 	android:required
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:20:64-88
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:21:64-88
 	android:name
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:20:19-63
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:21:19-63
 uses-feature#android.hardware.camera.front.autofocus
-ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:21:5-101
+ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:22:5-101
 	android:required
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:21:74-98
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:22:74-98
 	android:name
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:21:19-73
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:22:5-81
-	android:name
-		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:22:22-78
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:22:19-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:23:5-79
 	android:name
@@ -152,6 +155,10 @@ uses-permission#android.permission.DELETE_CACHE_FILES
 ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:26:5-77
 	android:name
 		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:26:22-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:27:22-78
 meta-data#android.support.FILE_PROVIDER_PATHS
 ADDED from /Users/chinna/MAAS/bsopencv/platforms/android/app/src/main/AndroidManifest.xml:13:13-123
 	android:resource

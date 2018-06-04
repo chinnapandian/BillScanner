@@ -69,4 +69,7 @@
         <param name="ios-package" value="SaveImageGallery" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="CropPlugin">
+        <param name="ios-package" value="CTCrop" />
+    </feature>
 </widget>

@@ -27,4 +27,5 @@
     <engine name="android" spec="~7.0.0" />
     <plugin name="cordova-plugin-camera" spec="^4.0.3" />
     <plugin name="cordova-save-image-gallery" spec="0.0.26" />
+    <plugin name="cordova-plugin-crop-mod" spec="^1.0.3" />
 </widget>

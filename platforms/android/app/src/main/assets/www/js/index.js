@@ -35,7 +35,7 @@ var app = {
                                 encodingType: Camera.EncodingType.JPEG,
                                 cameraDirection: Camera.Direction.BACK,
                                 saveToPhotoAlbum: true,
-                               // allowEdit: true,
+                                //allowEdit: true,
                                 targetWidth: screen.width * ratio,
                                 targetHeight: screen.height * ratio
                             };
@@ -44,12 +44,17 @@ var app = {
             },
 
             onSuccess: function(imgURI){
-                   let img = new Image();
-                   img.crossOrigin = "Anonymous";
-                   img.onload = function(){
+            var ratio = window.devicePixelRatio || 1;
+            plugins.crop(function success (imgPath) {
+                    let img = new Image();
+                    img.crossOrigin = "Anonymous";
+                    img.onload = function(){
                         app.ToDataURL(this);
-                   };
-                   img.src = imgURI;
+                    };
+                    img.src = imgPath;
+            }, function fail () {
+                    //console.log(msg);
+            }, imgURI, { quality: 100, allowEdit: true, targetWidth: screen.width, targetHeight: screen.height});
             },
 
             onError: function(msg){
