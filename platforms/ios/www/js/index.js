@@ -47,22 +47,18 @@ var app = {
         var ratio = window.devicePixelRatio || 1;
         let options = {
             quality: 100
-//            widthRatio:1,
-//            heightRatio:1,
-//            targetWidth:600,
-//            targetHeight:600
             };
         plugins.crop(function success (imgPath) {
                      let img = new Image();
                      img.crossOrigin = "Anonymous";
                      img.onload = function(){
-                     app.ToDataURL(this);
+                        app.ToDataURL(this);
                      };
                      img.src = imgPath;
                      }, function fail () {
-                     console.log(msg);
                      }, imgURI, options);
     },
+    
     onError: function(msg){
             console.log(msg);
     },
@@ -73,14 +69,15 @@ var app = {
             canvas.height = self.height;
             canvas.width = self.width;
             ctx.drawImage(self, 0, 0);
-
             let src = cv.imread(canvas);
             let dst = new cv.Mat();
+        
             // To distinguish the input and output, we graying the image.
             // You can try different conversions.
             cv.cvtColor(src, src, cv.COLOR_RGBA2GRAY,0);
             cv.adaptiveThreshold(src, dst, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY, 41, 9);
             cv.imshow('canvasOutput', dst);
+        
             //Store the adaptiveThreshold image into local storage.
             let canvasOutput = document.getElementById('canvasOutput');
             let dataURL = canvasOutput.toDataURL("image/jpeg", 0.8);
@@ -95,6 +92,7 @@ var app = {
                                           );
             src.delete();
             dst.delete();
+            canvas.remove();
         },
     
     onDeviceReady: function() {
